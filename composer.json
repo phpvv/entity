@@ -1,0 +1,25 @@
+{
+    "name": "phpvv/entity",
+    "description": "VV Entity",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Volodymyr Sarnytskyi",
+            "email": "v00v4n@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VV\\Entity\\": "Entity"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "phpvv/runtime": "^0.2.0",
+        "phpvv/db": "^0.3.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
+    }
+}
